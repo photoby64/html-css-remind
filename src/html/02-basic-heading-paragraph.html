@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제목과 단락</title>
+    <style>
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        /* 요소를 보이지 않게 잘라버림. 요소의 코드는 존재하지만 눈에는 안보이고 스크린 리더에서는 읽을수 있음 */
+        /* 즉 웹접근성에서 기작적으로만 숨기고 스크린리더는 읽을 수 있다. */
+        white-space: nowrap;
+        border-width: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../../index.html">처음으로</a>
+    <h1 class="sr-only">카페W 매장 찾기</h1>
+    <p>카페 W를 가까이에서 경험해 보세요</p>
+    <p>고객님과 가장 가까이 있는 매장을 찾아보세요!</p>
+  </body>
+</html>
